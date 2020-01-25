@@ -9,6 +9,8 @@ body {
 header {
     background: #333333;
     text-align: center;
+    margin: 0 auto;
+    padding: 10px;
 }
     
 
@@ -33,17 +35,20 @@ h2 {
 }
 
 #bio-image {
-    width: 200px;
-    margin: 10px;
-    text-overflow: clip;
+    width: 200px;    
+    margin-right: 10px;
 }
 
 #main-bio {
-    width: 70%;
+    width: 67%;
 }
 
-#content-info {
-    width: 30%;
-    color: #d21034;
+#contact-info {
+    width: 33%;
+    padding-left: 10px;
+}
+
+a {
+    color: red;
 }
 
