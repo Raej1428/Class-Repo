@@ -31,6 +31,7 @@ header, nav, footer {
 
 section {
     background: #ebebeb;
+    float: left;
     width: 495px;
     height: 295px;
     margin: 10px;
@@ -39,7 +40,8 @@ section {
 
 aside {
     background: #ebebeb;
-    width: 100%;
+    float: right;
+    width: 115%;
     height: 295px;
     margin: 10px;
     padding: 10px;
