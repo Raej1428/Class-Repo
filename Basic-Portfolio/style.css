@@ -1,3 +1,20 @@
 header{
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    background: teal;
+    width: 200px;
+    display: inline-flex;
+    flex: row;
+}
+
+.menu {
+    justify-content: right;
+    display: inline-flex;
+    flex: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
 }
