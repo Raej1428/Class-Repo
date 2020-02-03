@@ -1,20 +1,153 @@
+html, body{
+    background-image: url("pixel-heart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+
 header{
+    width: auto;
+    display: flex;
+    flex: row;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
-    margin: auto;
+    padding: 15px;
+    margin-right: 52%;
+    right:0px;
     background: teal;
-    width: 200px;
-    display: inline-flex;
-    flex: row;
+    margin-left: 10%
+}
+
+footer {
+    height: 50px;
+    padding: 10px;
+    background: slategray;
 }
 
 .menu {
-    justify-content: right;
-    display: inline-flex;
+    background: #ffffff;
+    display: flex;
     flex: row;
     font-family: Arial, Helvetica, sans-serif;
     color: #ccc;
+    padding: 5px;
+}
+
+.middle{
+    width: 960px;
+    min-height: 100%;
+    padding: 20px;
+    margin: 15px 15px 15px 15px;
+    background: whitesmoke;
+    margin-left: 10%;
+         }
+
+h1{
+    color: teal;
+}
+
+p{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+form{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 4px 0 4px;
+    width: 200px;
+	height: 250px;
+    border: 1px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: #ccc;  
+    vertical-align: middle;
+    }
+
+div.gallery{
+   float: right;
+
+}
+
+div.gallery2{
+  float: left;
+}
+
+div.gallery3{
+    float: right;
+
+
+}
+
+div.gallery4{
+   float: left;
+
+}
+
+div.gallery5{
+   float: right;
+
+}
+
+div.gallery:hover {
+    border: 1px; 
+    border-style: solid;
+    border-color:  #777;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+.adjust {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .adjust {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .adjust {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img2 {
+    width: 150px;
+    height: 250px;
+}
+
+footer {
+    place-content: bottom;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
 }
