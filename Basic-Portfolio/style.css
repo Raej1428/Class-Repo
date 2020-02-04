@@ -1,4 +1,4 @@
-html, body{
+html, body {
     background-image: url("pixel-heart.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,7 +6,7 @@ html, body{
     margin: 0;
 }
 
-header{
+header {
     width: auto;
     display: flex;
     flex: row;
@@ -33,7 +33,7 @@ footer {
     flex: row;
     font-family: Arial, Helvetica, sans-serif;
     color: #ccc;
-    padding: 5px;
+    padding: 10px;
 }
 
 .middle{
@@ -45,16 +45,16 @@ footer {
     margin-left: 10%;
          }
 
-h1{
+h1 {
     color: teal;
 }
 
-p{
+p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-form{
+form {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 30px;
@@ -62,6 +62,14 @@ form{
 
 img {
     width: 100%;
+    }
+
+.adjust {
+        float: left;
+        position: relative;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
     }
 
 .desc {
@@ -74,13 +82,6 @@ img {
 	bottom: 30px;
     }
 
-.adjust {
-    float: left;
-	position: relative;
-	width: 300px;
-	height: 200px;
-	margin: 5px;
-}
 
 .img2 {
     width: 150px;
