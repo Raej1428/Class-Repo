@@ -1,5 +1,5 @@
 html, body {
-    background-image: url("pixel-heart.png");
+    background-image: url("images/pixel-heart.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -91,6 +91,7 @@ img {
 .img2 {
     width: 150px;
     height: 250px;
+    margin: 1%;
 }
 
 footer {
